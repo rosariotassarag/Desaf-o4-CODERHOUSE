@@ -1,0 +1,325 @@
+/* Reseteo el estilo predeterminado */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+fieldset {
+    text-align: center;
+    font-size: larger;
+    font-size: medium;
+}
+
+#mensaje {
+    margin: 10px auto;
+    
+}
+
+label {
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+textarea {
+    display: block;
+}
+
+.contacto {
+    margin: 20px;
+}
+.contacto__terminos {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.contacto__sexo {
+    margin-left: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.contacto__nombre {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+.contacto__boton{
+    color: #2C3383;
+    font-weight: 500; 
+    padding:4px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    padding:0.1px 0;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    text-align: center;
+}
+
+.nav {
+    display: inline-block;
+    
+}
+.nav__list {
+    list-style: none;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.nav__item {
+    display: inline-block;
+    margin:5px 0 10px 5px;
+    padding: 15px;
+}
+
+#intro-main {
+    background-color: #f5f7fa;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width:95%;
+    margin:0 auto;
+    max-width: 1320px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+header {
+    background-color: #2C3383;
+}
+
+.nav__link {
+    text-decoration:none;
+    text-transform: uppercase;
+    color:white;
+    
+   
+}
+
+.intro-main__contenido__general {
+    position: relative;
+    
+  
+}
+
+.background_image {
+    height: 400px;
+    object-fit: cover;
+    object-position: 10% 10%;
+    width: 100%;
+    opacity: 0.75;
+}
+
+
+.intro-main__contenido__titulo {
+    position: absolute;
+    bottom: -100px;
+    left: 580px;
+    color:#111273;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0.9;
+    padding: 8rem 0;
+    text-align:left;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 1px 1px 2px rgb(143, 139, 139);
+    
+}
+
+.intro-main__contenido__texto {
+    line-height: 1.6;
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.intro-main__contenido__texto--titulo {
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-top: 30px;
+
+}
+
+.intro-main__contenido__titulo__general {
+background-color:#df0024;
+text-transform: uppercase;
+font-style: italic;
+text-align: center;
+color:white;
+margin-bottom: 15px;
+padding: 18px;
+font-family: 'Lato', sans-serif;
+font-size: 30px;
+}
+
+
+.intro__main__lista__gral {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 50px;
+}
+
+.intro__main__lista {
+    display: inline-block;
+    padding: 5px  7rem;      
+}
+
+.intro__main__lista2 {
+    display: inline-block;
+    padding: 5px  4rem;  
+}
+
+.intro__main__lista__titulo {
+    font-size: 17px;
+    text-transform: uppercase;
+    color:#df0024;
+    text-decoration: underline;
+}
+.intro__main__lista--items {
+    list-style-type: none;
+    line-height: 1.7;
+    margin-top: 7px;
+    
+}
+
+.img_foto {
+    width:50% ;
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+.img_foto--right {
+    float: right;
+    margin-left: 20px;
+    max-width: 50%;
+}
+
+.img_foto_uno {
+    display: inline-block;
+    max-width: 33%; 
+     
+}
+
+.row__imagenes__tres {
+    text-align: center;
+}
+
+.imagen3 {
+    height: 282px;
+}
+
+.img_logo {
+    display: inline-block;
+    margin-top: 5px;
+    }
+
+.convenios {
+    text-align: center;
+}
+
+.img__convenio {
+    padding: 0 50px;
+}
+
+.convenios__texto {
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.footer {
+    line-height: 1.6;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #df0024;
+    color: white;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+.row {
+    margin: 0 auto;
+}
+
+.row--comunidad {
+    margin: 30px auto;
+    height: 400px;
+}
+
+.row__textoCostado {
+   font-size: 15px;
+   font-weight: 400;
+   text-align: justify;
+   margin-left: 0 auto;
+   line-height: 1.5rem;
+     
+}
+
+.row__comunidad__titulo {
+    color:#2C3383;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer__titulo {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer__logos {
+    display: inline-block;
+    padding: 10px;
+}
+
+.fa-facebook-official {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.column {
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    padding: 20px 5px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.column__conTexto {
+    display: inline-block;
+}
+
+
+
+
+
